@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:id="@+id/musicpic"
+                android:src="@drawable/musicpic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Light"
+                android:id="@+id/thelight"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@id/musicpic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="-4dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="Precious Jesus"
+                android:id="@+id/mtitle"
+                android:layout_toRightOf="@id/musicpic"
+                android:layout_below="@id/thelight"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="ft. Blessing J."
+                android:layout_toRightOf="@id/musicpic"
+                android:layout_below="@id/mtitle"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="45dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/micon"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/Jellyfish"
+                android:scaleType="centerCrop"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/micon"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/micon"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/micon"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:textSize="10sp"
+            android:textColor="@android:color/black"
+            android:text="Repeat"/>
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="45dp"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_marginTop="35dp"
+            android:textColor="@android:color/red"
+            android:text="Previous"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="10sp"
+            android:text="Play"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:textColor="@android:color/red"
+            android:textSize="10sp"
+            android:text="Next"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_marginTop="35dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:text="Shuttle"/>
+    </LinearLayout>
+
+</LinearLayout>
